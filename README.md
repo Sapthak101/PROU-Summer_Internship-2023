@@ -32,9 +32,11 @@ Dataset:
   2.1 Functional Architecture: This is Supervised Machine Learning task. The whole project has been implemented on the Jupyter Notebook using Python 3.11 as the base language. We have also implemented libraries like NumPy, Pandas for getting the required database on an acceptable format. Then using libraries like Matplotlib and Seaborn we have done the necessary visualizations and exploration. Then discarded features which do not significant affect our desired outcome that is the price, and we have also filled the Nan values or missing data with relevant data based on the distribution weight of the existing data and number of Nan values. In this way we did the necessary data preprocessing. Then we have developed the models for both Regression Deep Learning and Normal Regression and found the predicted value for our test values and compared them with the actual values to find the efficiency of our proposed models.
   3.2 Optimization: There are some features which cannot be directly feed into our model, so featured engineered them by taking them into an acceptable form to include them into our models to increase efficiency of our models.
   
+ 
 3. KPIs:
 
   3.1 KPIs (Key Performance Indicators): The Key Performance Indicators we have implemented on our models are given below:
+  
         i. MSE (Mean Square Error)
         
         ii. RMSE (Root Mean Square Error)
